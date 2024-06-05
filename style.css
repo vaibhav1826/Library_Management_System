@@ -1,0 +1,143 @@
+ body{
+    background-color: wheat;
+ }
+.logo{
+    background-color: green;
+    height:60px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.header1{
+    background-color:green;
+    height:60px;
+    padding-left:450px;
+    padding-right:450px;
+    color:whitesmoke;
+    text-align:center;
+}
+.login{
+    background-color:green;
+    height:50px;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.login:hover{
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+.header{
+    display: flex;
+}
+.dropdown{
+    display:flex;
+    background-color: green;
+    margin-top:8px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.option{
+    background-color: green;
+    color:white;
+    padding-top: 10px;
+    padding-left:95px;
+    padding-right:95px;
+    padding-bottom: 10px;
+}
+.noline{
+    text-decoration:none;
+    color:whitesmoke;
+}
+.noline:hover{
+    border:1px solid whitesmoke ;
+}
+.slide{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height:550px;
+    width:1300px;
+    background-image: url("photo1.png.jpg");
+    box-shadow: 1px 1px 10px 4px rgb(42, 41, 41);
+    animation:slider 9s infinite linear ;
+    background-size: 100% 100%;
+}
+@keyframes slider{
+    0%{background-image: url("photo1.png.jpg");}
+    35%{background-image: url("photo3.png.jpg");}
+    70%{background-image:url("photo4.png.jpg")}
+
+}
+.box{   
+    background-color:green;
+    text-align: center;
+    text-shadow:2px 4px 10px rgb(85, 50, 3);
+    color:whitesmoke;
+    margin-top:5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+hr{
+    margin-top:2px;
+    margin-bottom:1px;
+    height:1px;
+    color:white;
+}
+.book{
+     height:200px;
+     width:200px;
+     padding-top: 50px;
+     padding-left:50px;
+     background-color: rgb(14, 130, 14) ;
+     border-radius: 10px;
+     box-shadow:2px 4px 20px  rgb(85, 50, 3);
+
+}
+.audiosymbol{
+    margin-top:2px;
+    padding-top:5px;
+    padding-left:55px;
+    padding-bottom: 10px;
+}
+.audiobook{
+    display:flex;
+    border-radius:200px ;
+}
+.footer{
+    display: flex;
+}
+.hour{
+    margin-top: 20px;
+    background-color:green;
+    color:white;
+    padding-left:50px;
+    padding-right:50px;
+}
+.last{
+    padding-left:250px ;
+    font-size:larger ;
+}
+.copyright{
+    margin-top:20px;
+    text-align:center ;
+}
+.resources{
+    margin-top:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:green;
+    box-shadow:  2px 5px 20px  rgb(85, 50, 3);
+    border-radius: 10px;
+    display:flex;
+}
+.yes{
+    color:whitesmoke;
+    font-size: x-large;
+    padding-left:280px;
+}
+.rr2{
+    padding-left:200px;
+    
+}

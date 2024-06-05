@@ -1,0 +1,54 @@
+*{
+    color:whitesmoke;
+    text-decoration:none;
+}
+.container{
+    width:300px;
+    margin:175px auto auto auto;
+    padding:20px;
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ h2{
+    text-align:center;
+ }
+
+ form{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+ }
+
+ label{
+    margin-bottom:10px;
+ }
+
+ input[type="text"],
+ input[type="password"],
+ input[type="phonenumber"]{
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border:2px solid black;
+ }
+
+ input[type="submit"]{
+    background-color: whitesmoke;
+    color: green;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    border-radius:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ body{
+    background-image : url("photo3.png.jpg");
+    border: 5px;
+    padding:10px;
+    margin:5px;
+    background-size:100% 100%;
+ }
