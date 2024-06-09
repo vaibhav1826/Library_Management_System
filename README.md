@@ -22,5 +22,5 @@ Cloning the Repository
 </Pre>
 <h2>Features</h2>
 <h4>
-  We are going to provide a platform where one can find job of their want with advanced searching sorting filtering and more often will also provide many industry relevant carrier resources for students betterment.
+  We are going to provide a platform where one can use it for library management or library betterment and also use for study of various resources and elevant carrier resources for students betterment.
 </h4>
